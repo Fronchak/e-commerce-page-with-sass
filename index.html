@@ -1,15 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Css project -->
-    <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
-    <title>Electrum E-commerce</title>
+  <!-- Google fonts - Open Sans -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+  <!-- Css project -->
+  <link rel="stylesheet" type="text/css" href="./assets/css/app.css">
+  <title>Electrum E-commerce</title>
 </head>
 <body>
-    <h1>Hello Word!</h1>
+  <header class="header">
+    <div class="header-top">
+      <div class="header-top-container">
+        <div class="store-info-container">
+          <span><i class="bi bi-telephone-fill"></i> (48) 9 9999-9999</span>
+          <span><i class="bi bi-envelope-fill"></i>electrum@email.com</span>
+          <span><i class="bi bi-geo-alt-fill"></i>Rua não sei do que, 41521</span>
+        </div>
+        <div class="header-user-top-menu">
+          <span><i class="bi bi-currency-dollar"></i> <a href="#">BRL</a></span>
+          <span><i class="bi bi-person-fill"></i> <a href="#">Minha Conta</a></span>
+        </div>
+      </div>
+    </div>
+    <div class="header-main">
+      <div class="header-main-container">
+        <a href="">Electrum <i class="bi bi-lightning-fill"></i></a>
+        <form action="post" id="search-form">
+          <input type="text" id="search" name="search" placeholder="Busque aqui" />
+          <input type="submit" class="btn btn-half" value="Pesquisar" />
+        </form>
+        <div class="header-actions-menu">
+          <div class="wishlist-container">
+            <span class="qty">0</span>
+            <i class="bi bi-heart"></i>
+            <a href="#">Favoritos</a>
+          </div>
+          <div class="header-cart-container">
+            <span class="qty">0</span>
+            <i class="bi bi-cart-dash-fill"></i>
+            <a href="#">Carrinho</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="header-bottom">
+      <nav>
+        <ul>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">Promoções</a>
+          </li>
+          <li>
+            <a href="#">Notebooks</a>
+          </li>
+          <li>
+            <a href="#">Celulares</a>
+          </li>
+          <li>
+            <a href="#">Câmeras</a>
+          </li>
+          <li>
+            <a href="#">Acessórios</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="banners">
+    <div class="banner" id="banner-1">
+      <div class="banner-conver"></div>
+      <div class="banner-content">
+        <h2>Promoção de Notebooks</h2>
+        <a href="#">Ver Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+      </div>
+    </div>
+    <div class="banner" id="banner-2">
+      <div class="banner-conver"></div>
+      <div class="banner-content">
+        <h2>Lançamento de Acessórios</h2>
+        <a href="#">Ver Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+      </div>
+    </div>
+    <div class="banner" id="banner-3">
+      <div class="banner-conver"></div>
+      <div class="banner-content">
+        <h2>Câmeras Potentes</h2>
+        <a href="#">Ver Mais <i class="bi bi-arrow-right-circle-fill"></i></a>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
