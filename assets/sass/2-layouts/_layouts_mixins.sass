@@ -1,10 +1,9 @@
 @use '../1-base/variables'
 
-@mixin center-content
+@mixin center-content($padding: 1em)
   max-width: variables.$container-width
   margin: 0 auto
-  padding-left: 1em
-  padding-right: 1em
+  padding: $padding 1em
   display: flex
   justify-content: space-between
 

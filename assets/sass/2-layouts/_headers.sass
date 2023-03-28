@@ -10,9 +10,7 @@
     color: variables.$light-color
 
     &-container
-      @include layouts_mixins.center-content
-      padding-top: 0.8rem
-      padding-bottom: 0.8rem
+      @include layouts_mixins.center-content(0.8rem)
 
       span
         margin-right: 1rem
@@ -26,9 +24,7 @@
   &-main
 
     &-container
-      @include layouts_mixins.center-content
-      padding-top: 1.3rem
-      padding-bottom: 1.3rem
+      @include layouts_mixins.center-content(1.3rem)
 
       a, span
         color: variables.$light-color
@@ -67,9 +63,7 @@
     border-top: 3px solid variables.$primary-color
 
     ul
-      @include layouts_mixins.center-content
-      padding-top: 0.8rem
-      padding-bottom: 0.8rem
+      @include layouts_mixins.center-content(0.8rem)
       justify-content: flex-start
       gap: 1.5em
 

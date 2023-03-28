@@ -42,12 +42,9 @@ ul {
 .header-top-container {
   max-width: 1170px;
   margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 0.8rem 1em;
   display: flex;
   justify-content: space-between;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
 }
 .header-top-container span {
   margin-right: 1rem;
@@ -61,12 +58,9 @@ ul {
 .header-main-container {
   max-width: 1170px;
   margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 1.3rem 1em;
   display: flex;
   justify-content: space-between;
-  padding-top: 1.3rem;
-  padding-bottom: 1.3rem;
 }
 .header-main-container a, .header-main-container span {
   color: #fff;
@@ -132,12 +126,9 @@ ul {
 .header-bottom ul {
   max-width: 1170px;
   margin: 0 auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 0.8rem 1em;
   display: flex;
   justify-content: space-between;
-  padding-top: 0.8rem;
-  padding-bottom: 0.8rem;
   justify-content: flex-start;
   gap: 1.5em;
 }
@@ -148,6 +139,14 @@ ul {
 .header-bottom ul a:hover {
   color: #D10024;
   border-color: #D10024;
+}
+
+.banners {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 3rem 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 .btn {
@@ -170,6 +169,62 @@ ul {
   border-top-left-radius: 0;
   border-bottom-left-radius: 0;
   text-transform: none;
+}
+
+.banner {
+  width: 30%;
+  height: 200px;
+  position: relative;
+  color: #fff;
+  transition: 0.4s;
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+}
+.banner:hover {
+  background-size: 120%;
+}
+.banner-cover {
+  background-color: #D10024;
+  width: 70%;
+  height: 100%;
+  opacity: 0.8;
+  border-bottom-right-radius: 6rem;
+}
+.banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 2rem;
+}
+.banner-content h2 {
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+  max-width: 70%;
+}
+.banner-content a {
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.6em;
+}
+.banner-content a i {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+#banner-1 {
+  background-image: url("../imgs/banner-1.jpg");
+}
+
+#banner-2 {
+  background-image: url("../imgs/banner-2.jpg");
+}
+
+#banner-3 {
+  background-image: url("../imgs/banner-3.jpg");
 }
 
 /*# sourceMappingURL=app.css.map */
